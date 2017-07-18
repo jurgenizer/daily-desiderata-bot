@@ -7,3 +7,5 @@ Based on hello-world-bot template (https://github.com/tpinecone/hello-world-bot/
 everyportland bot (https://github.com/spinecone/everyportland.git)
 
 Thank you to spinecone for the Build-a-Bot Workshop Book (https://www.gitbook.com/book/spinecone/build-a-bot-workshop/details)
+
+List of names from: https://deron.meranda.us/data/
