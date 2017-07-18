@@ -19,7 +19,7 @@ def get_next_chunk():
     chunk = chunk
   # otherwise just print the first 1129 characters
   else:
-    chunk = first_sentence[0:129]
+    chunk = text_string[0:129]
 
   # delete what we just tweeted from the text file
   text_file.seek(0)
