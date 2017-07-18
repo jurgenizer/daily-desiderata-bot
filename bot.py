@@ -14,6 +14,12 @@ def get_next_chunk():
   text_file = open('book.txt', 'r+')
   text_string = text_file.read()
   chunk = text_string.split('\n')[0]
+  
+  if len(text_string) <= 129:
+    chunk = chunk
+  # otherwise just print the first 1129 characters
+  else:
+    chunk = first_sentence[0:129]
 
   # delete what we just tweeted from the text file
   text_file.seek(0)
