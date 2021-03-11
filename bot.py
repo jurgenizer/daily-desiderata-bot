@@ -11,16 +11,16 @@ def random_modifier():
 
 def get_next_chunk():
   # open text file
-  text_file = open('book.txt', 'r+')
+  text_file = open('names.txt', 'r+')
   text_string = text_file.read()
   chunk = text_string.split('\n')[0]
-   
+
   # delete what we just tweeted from the text file
   text_file.seek(0)
   text_file.write(text_string[len(chunk) + 1:len(text_string)])
   text_file.truncate()
   text_file.close()
-  
+
   return chunk
 
 def desiderata_word():
